@@ -8,6 +8,11 @@
 # 执行命令
 1、使用 -jar xxx.jar E:\Test\application.property 启动程序,(E:\Test\application.property)为配置文件的绝对路径，（xxx.jar）为maven打包出来的jar包名字
 
+# 注意事项
+1、商家白名单BUSSINESS_WHITE_LIST_PATH 所对应的文件格式需要为txt,编码为UTF-8，且一行一个商家
+
+2、待查询的商品名称GOODS_NAME_INPUT_PATH 所对应的文件格式需要为txt,编码为UTF-8，且一行一个待查询的商品
+
 # 配置文件 application.property
 
 #######每次执行需按需修改
