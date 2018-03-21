@@ -5,6 +5,8 @@
 
 2、工程目录 使用  maven install 进行打包
 
+3、运行环境为
+
 # 执行命令
 1、使用 -jar xxx.jar E:\Test\application.property 启动程序,(E:\Test\application.property)为配置文件的绝对路径，（xxx.jar）为maven打包出来的jar包名字
 
